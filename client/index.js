@@ -32,7 +32,7 @@ angular.module('app', [
 
 		$.ajax({ 
 			type : 'POST',
-			url : "https://safe-lowlands-94171.herokuapp.com/" ,
+			url : "https://blooming-retreat-13174.herokuapp.com/" ,
 			data : {cost : cost, security : security, wheater : wheater} ,
 			success : function(data) {
 	  			window.cities = data;

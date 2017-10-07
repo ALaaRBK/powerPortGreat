@@ -1,6 +1,8 @@
 angular.module('app')
    .component('findcity' , {
 	controller : ($scope, $location) => {
+		//http://localhost:3000/cities
+		//https://safe-lowlands-94171.herokuapp.com/cities
 		$scope.find = () => {
 			var city = $('#cityname').val()
 			$.ajax({ 
@@ -10,8 +12,8 @@ angular.module('app')
 				success : function(data) {
 					window.currentCity = data;
                     alert('click on info page to view information about : ' + city)
-					//$location.path('cityinfo');
-					//appendMap(); 
+					$location.path('cityinfo');
+					appendMap(); 
 				}, 
 				error : ()=> {
 					console.log('error')

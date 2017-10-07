@@ -34,7 +34,7 @@ angular.module('app', [
 		$.ajax({ 
 			type : 'POST',
 			url : "https://blooming-retreat-13174.herokuapp.com/" ,
-			data : {cost : cost, security : security, wheater : wheater} ,
+			data : {cost : cost, security : security, weather : weather} ,
 			url : "https://safe-lowlands-94171.herokuapp.com/" ,
 			data : {cost : cost, security : security, weather : weather} ,
 			success : function(data) {

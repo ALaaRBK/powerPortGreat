@@ -9,7 +9,7 @@ angular.module('app')
 			var name = this.city.name
 			$.ajax({ 
 				type : 'POST',
-				url : "https://blooming-retreat-13174.herokuapp.com/cities" ,
+				url : "https://safe-lowlands-94171.herokuapp.com/cities" ,
 				data :  {name: name},
 				success : function(data) {
                     console.log(data);

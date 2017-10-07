@@ -1,5 +1,11 @@
 # powerPort greenfield project 
 
+Introduction
+-------------
+
+Traveling to other countries became a lifestyle, People are traveling to countries which sometimes are different than their homes in many ways, spoken language, weather, cost and the time difference, because that they might face some difficulties , but if they chose the city depend on things that matter to them like cost , security and weather, they will face fewer problems and they will enjoy their travel.
+
+Powerport website is a website For people who want to travel, But they didn't decide where they will travel , our website help them to decide which city is good for them to travel depending on specific categories like cost , security and weather .
 
 
 ## Goal of the website 
@@ -16,11 +22,11 @@ for the front end we used angularJS and Jquery for back end we used Nodejs(expre
 
 ## Files
 
-[] client side 
+[ ] client side 
 
-	- [] component 
+	- [ ] component 
 
-	- [] templates 
+	- [ ] templates 
 
 		- for angular templates 
 
@@ -28,7 +34,7 @@ for the front end we used angularJS and Jquery for back end we used Nodejs(expre
 
 	- index.js
 
-[] database:
+[ ] database:
 
 	- index.js: creates schema and fills database with info
 
@@ -36,7 +42,7 @@ for the front end we used angularJS and Jquery for back end we used Nodejs(expre
 
 	- lastupdate: saves the number that represents the current date
 
-[] server:
+[ ] server:
 
 	- config.js: keys for API's
 
